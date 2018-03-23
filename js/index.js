@@ -148,21 +148,21 @@ $(function () {
     //领取奖励按钮
     //奖励1
     $('#gift_1').on('click',function () {
-        if($(this).hasClass('tt')){
+        if($(this).hasClass('tt') && !$(this).hasClass('active')){
             showGiftPopup();
             $(this).addClass('active');
         }
     });
     //奖励2
     $('#gift_2').on('click',function () {
-        if($(this).hasClass('tt')){
+        if($(this).hasClass('tt') && !$(this).hasClass('active')){
             showGiftPopup();
             $(this).addClass('active');
         }
     });
     //奖励1
     $('#gift_3').on('click',function () {
-        if($(this).hasClass('tt')){
+        if($(this).hasClass('tt') && !$(this).hasClass('active')){
             showGiftPopup();
             $(this).addClass('active');
         }
